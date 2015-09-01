@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0FC4DF1B17A17F00D5A7F7 /* Planets.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6E0FC4DE1B17A17F00D5A7F7 /* Planets.mm */; };
 		6E913D581B1780970097091D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E913D571B1780970097091D /* main.m */; };
 		6E913D5B1B1780970097091D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E913D5A1B1780970097091D /* AppDelegate.m */; };
 		6E913D5E1B1780970097091D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E913D5D1B1780970097091D /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		6E913D631B1780970097091D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E913D621B1780970097091D /* Images.xcassets */; };
 		6E913D661B1780970097091D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E913D641B1780970097091D /* LaunchScreen.xib */; };
 		6E913D721B1780970097091D /* HyperSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E913D711B1780970097091D /* HyperSpaceTests.m */; };
+		6EF86FA71B1878F800FA979D /* HyperSpaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF86FA61B1878F800FA979D /* HyperSpaceController.m */; };
+		6EF86FAA1B187DE500FA979D /* HyperSpaceScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF86FA91B187DE500FA979D /* HyperSpaceScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E0FC4DD1B17A17F00D5A7F7 /* Planets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planets.h; sourceTree = "<group>"; };
+		6E0FC4DE1B17A17F00D5A7F7 /* Planets.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Planets.mm; sourceTree = "<group>"; };
 		6E913D521B1780970097091D /* HyperSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E913D561B1780970097091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E913D571B1780970097091D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,10 @@
 		6E913D6B1B1780970097091D /* HyperSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E913D701B1780970097091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E913D711B1780970097091D /* HyperSpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyperSpaceTests.m; sourceTree = "<group>"; };
+		6EF86FA51B1878F800FA979D /* HyperSpaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperSpaceController.h; sourceTree = "<group>"; };
+		6EF86FA61B1878F800FA979D /* HyperSpaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperSpaceController.m; sourceTree = "<group>"; };
+		6EF86FA81B187DE500FA979D /* HyperSpaceScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperSpaceScrollView.h; sourceTree = "<group>"; };
+		6EF86FA91B187DE500FA979D /* HyperSpaceScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperSpaceScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,12 @@
 		6E913D541B1780970097091D /* HyperSpace */ = {
 			isa = PBXGroup;
 			children = (
-				6E913D591B1780970097091D /* AppDelegate.h */,
-				6E913D5A1B1780970097091D /* AppDelegate.m */,
-				6E913D5C1B1780970097091D /* ViewController.h */,
-				6E913D5D1B1780970097091D /* ViewController.m */,
+				6E0FC4DD1B17A17F00D5A7F7 /* Planets.h */,
+				6E0FC4DE1B17A17F00D5A7F7 /* Planets.mm */,
+				6EF86FA51B1878F800FA979D /* HyperSpaceController.h */,
+				6EF86FA61B1878F800FA979D /* HyperSpaceController.m */,
+				6EF86FA81B187DE500FA979D /* HyperSpaceScrollView.h */,
+				6EF86FA91B187DE500FA979D /* HyperSpaceScrollView.m */,
 				6E913D5F1B1780970097091D /* Main.storyboard */,
 				6E913D621B1780970097091D /* Images.xcassets */,
 				6E913D641B1780970097091D /* LaunchScreen.xib */,
@@ -98,6 +109,10 @@
 			children = (
 				6E913D561B1780970097091D /* Info.plist */,
 				6E913D571B1780970097091D /* main.m */,
+				6E913D591B1780970097091D /* AppDelegate.h */,
+				6E913D5A1B1780970097091D /* AppDelegate.m */,
+				6E913D5C1B1780970097091D /* ViewController.h */,
+				6E913D5D1B1780970097091D /* ViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF86FA71B1878F800FA979D /* HyperSpaceController.m in Sources */,
 				6E913D5E1B1780970097091D /* ViewController.m in Sources */,
 				6E913D5B1B1780970097091D /* AppDelegate.m in Sources */,
+				6EF86FAA1B187DE500FA979D /* HyperSpaceScrollView.m in Sources */,
 				6E913D581B1780970097091D /* main.m in Sources */,
+				6E0FC4DF1B17A17F00D5A7F7 /* Planets.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +298,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -322,7 +341,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -414,6 +434,7 @@
 				6E913D771B1780970097091D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E913D781B1780970097091D /* Build configuration list for PBXNativeTarget "HyperSpaceTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +443,7 @@
 				6E913D7A1B1780970097091D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
